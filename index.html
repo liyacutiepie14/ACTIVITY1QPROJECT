@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lobster', sans-serif;
+        }
+
+        body {
+            color: #333;
+            background-image: url('gingham.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        header {
+            background-color: #B6C6F1F2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 40px;
+            border-bottom: 2px solid #ddd;
+            position: sticky;
+            top: 0;
+        }
+
+        header .logo {
+            font-size: 24px;
+        }
+
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+            color: #e8edfa;
+        }
+
+        h1 {
+            text-decoration: none;
+            color: #50537d;
+        }
+
+        p {
+            color: #575a8a;
+        }
+
+        h2 {
+            color: #3b3e69;
+        }
+
+        header nav a:hover {
+            color: #50537d;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(224, 231, 255, 0.9);
+            border-bottom: 3px solid #cbd5e1;
+        }
+
+        .hero .avatar {
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-size: 28px;
+        }
+
+        .hero .highlight {
+            color: #2563eb;
+        }
+
+        .hero p {
+            font-style: italic;
+        }
+
+        .about, .works, .contact {
+            max-width: 800px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .about h2, .works h2, .contact h2 {
+            background-color: rgba(199, 210, 254, 0.9);
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul, ol, li, dt, dd {
+            color: #575a8a;
+        }
+
+        .work-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .work-card img {
+            width: 90%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #ddd;
+        }
+
+        .work-info p {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            color: #575a8a;
+        }
+
+        input, select, textarea {
+            color: #575a8a;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+            height: 80px;
+        }
+
+        .checkboxes label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #575a8a;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #4338ca;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+            header nav {
+                margin-top: 10px;
+            }
+
+            .work-card img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="N (1).jpg" width="60" height="60"></div>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#works">My Works</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="Untitled design.jpg" alt="avatar" class="avatar">
+        <h1>₊‧°Hi, I'm <a href="https://www.instagram.com/liyapabale/">Nataliya Pabale</a>!°‧₊</h1>
+        <p>⊹₊ ˚‧︵‿₊OBMC Student, ready to conquer the world!₊‿︵‧ ˚ ₊⊹</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>.𖥔 ݁ ˖ִ About Me. ⊹݁˚𖥔</h2>
+        <p>hi, i’m nataliya pabale ♡ i’m someone who loves expressing creativity—whether it’s through writing, coding cute html/css layouts, or making school projects look aesthetic and meaningful. i care about doing things with purpose and detail, but i also like keeping things fun and a little extra when it comes to style and personality.</p><br>
+        <p>outside of that, i’m the type who enjoys mixing proper grammar with chill gen z taglish, loves good conversations, and always tries to balance being thoughtful, playful, and just a bit mysterious </p><br>
+        <h2>.𖥔 ݁ ˖ִ My Hobbies⊹݁˚𖥔</h2>
+        <ul>
+            <li>Watching movies</li>
+            <li>Playing volleyball</li>
+            <li>Baking</li>
+            <li>Cooking</li>
+        </ul><br>
+        <h2>.𖥔 ݁ ˖ִ My Skills⊹݁˚𖥔</h2>
+        <ol>
+             <li>Science analysis and problem-solving</li>
+             <li>ICT and technology proficiency</li>
+             <li>Creativity in baking and presentation</li>
+             <li>Teamwork and coordination in volleyball</li>
+        </ol><br>
+        <h2>.𖥔 ݁ ˖ִ My Interests⊹݁˚𖥔</h2>
+        <dl>
+            <dt>Movies</dt>
+             <dd>I love exploring different genres and analyzing storylines.</dd>
+
+             <dt>Volleyball</dt>
+             <dd>I enjoy playing as a form of exercise and teamwork.</dd>
+
+             <dt>Baking</dt>
+             <dd>I find joy in creating desserts and experimenting with recipes.</dd>
+
+             <dt>Cooking</dt>
+             <dd>It’s a relaxing hobby that lets me be creative with flavors.</dd>
+
+             <dt>Science</dt>
+            <dd>I’m fascinated by how things work and love learning new concepts.</dd>
+
+              <dt>ICT</dt>
+            <dd>I’m interested in technology and how it connects people and ideas.</dd>
+         </dl>
+
+
+       
+    </section>
+
+    <section id="works" class="works">
+        <h2>.𖥔 ݁ ˖ִ My Works. ⊹݁˚𖥔</h2>
+
+        <div class="work-card">
+            <img src="flowerslam.png" alt="project">
+            <div class="work-info">
+                <p>My Drill #1 Output!</p><br>
+                <p>Applies all I've learned, effectively, smoothly, and very cute! (like me)</p><br>
+                <p>My Personal Slambook, inspired by my personal portfolio here</p>
+            </div>
+        </div>
+
+        <div class="work-card">
+            <img src="robot.png" alt="project">
+            <div class="work-info">
+                <p>My Skills Test #1 Output!</p><br>
+                <p>Gave me enough time to think critically and apply all the techniques I've learned.</p><br>
+                <p>It is a mock OBMC Robotics Club Application</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>.𖥔 ݁ ˖ִ Contact Me. ⊹݁˚𖥔</h2>
+
+        <form>
+            <label>Your Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Your Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>How did you find me?</label>
+            <select>
+                <option>Facebook</option>
+                <option>Google</option>
+                <option>Friends</option>
+                <option>Others</option>
+            </select>
+
+            <label>Services Interested In:</label>
+            <div class="checkboxes">
+                <label><input type="checkbox"> Web Design</label>
+                <label><input type="checkbox"> Graphic Design</label>
+                <label><input type="checkbox"> Robotics</label>
+            </div>
+
+            <label>Any Feedback?</label>
+            <textarea placeholder="Write something..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Nataliya Pabale. The coolest of all.</p>
+    </footer>
+</body>
+</html>
